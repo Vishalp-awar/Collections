@@ -61,10 +61,14 @@ public class CustomArrayListImpl {
 
     public Object get(int index) throws Exception {
 
-        if(index > obj.length || index < 0){
+        if (index > obj.length || index < 0) {
             throw new Exception("Index not Found");
         }
         return obj[index];
+    }
+
+    public int size() {
+        return obj.length;
     }
 
 }
