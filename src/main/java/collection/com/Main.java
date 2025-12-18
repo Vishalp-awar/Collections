@@ -18,8 +18,8 @@ public class Main {
 //            System.out.println("i = " + i);
 //        }
 
-        ArrayList ar =new ArrayList();
-        CustomArrayListImpl cs =new CustomArrayListImpl();
+        ArrayList ar = new ArrayList();
+        CustomArrayListImpl cs = new CustomArrayListImpl();
 
         cs.add("vishal");
         cs.add("pawar");
@@ -29,7 +29,6 @@ public class Main {
         cs.add("pawar3");
         System.out.println(cs.toString());
 
-        System.out.println( cs.get(12));
-
+        System.out.println(cs.size());
     }
 }
